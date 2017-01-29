@@ -107,8 +107,8 @@ $noise=0; /* noise level */
 
 $image=imagecreatetruecolor($width, $height);
 
-$background_color=imagecolorallocate($image, 255, 255, 255); /* rbg background color*/
-$font_color=imagecolorallocate($image, 0,0,0); /* rbg shadow color*/
+$background_color=imagecolorallocate($image, 50, 5, 5); /* rbg background color*/
+$font_color=imagecolorallocate($image, 0,3,2); /* rbg shadow color*/
 
 imagefill($image, 0, 0, $background_color);
 imagecolortransparent($image, $background_color);
